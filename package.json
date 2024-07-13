@@ -1,0 +1,28 @@
+{
+  "name": "tfjs-basic-chrome-extension",
+  "version": "0.2.0",
+  "description": "Use transformers.js model in a chrome extension (v3)",
+  "@parcel/resolver-default": {
+    "packageExports": true
+  },
+  "scripts": {
+    "build": "rm -rf dist && npx parcel build manifest.json",
+    "start": "rm -rf dist && npx parcel watch manifest.json --host localhost"
+  },
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.10.3",
+    "@parcel/core": "^2.10.3",
+    "buffer": "^6.0.3",
+    "clang-format": "^1.2.3",
+    "console-browserify": "^1.2.0",
+    "prettier": "^3.3.2",
+    "process": "^0.11.10"
+  },
+  "resolutions": {
+    "node-fetch": "2.6.7"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.0.0"
+  }
+}

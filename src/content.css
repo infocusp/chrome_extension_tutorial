@@ -1,0 +1,20 @@
+.tfjs-mobilenet-extension-text-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.tfjs-mobilenet-extension-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 34px;
+  font-family: "Google Sans,sans-serif";
+  font-weight: 600;
+  color: white;
+  line-height: 1em;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: "1px";
+  -webkit-text-stroke-color: black;
+}
